@@ -1,11 +1,16 @@
 import React from 'react';
 import './App.css';
-import MyOtherComponent from './Components/MyOtherComponent'
+import ClassState from './Components/Class/ClassState';
+import FunctionState from './Components/Function/FunctionState';
 
 function App() {
   return (
     <div className="App">
-      <MyOtherComponent />
+      <h1>State</h1>
+      <ClassState />
+      <br/>
+      <hr/>
+      <FunctionState />
     </div>
   );
 }
