@@ -1,16 +1,13 @@
-// MyOtherComponent.js
-import React, { Component } from 'react';
-import MyComponent from './MyComponent';
+import React from 'react'
+import MyComponent from './MyComponent'
 
-class MyOtherComponent extends Component {
-  render() {
+function MyOtherComponent() {
     return (
-      <div>
-        <div>This is my other component.</div>
-        <MyComponent />
-      </div>
-    );
-  }
+        <div>
+            This is My Other Function Component.
+            <MyComponent />
+        </div>
+    )
 }
 
 export default MyOtherComponent;
