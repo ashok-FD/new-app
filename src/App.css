@@ -3,20 +3,6 @@
   padding: 300px;
 }
 
-h1{
-  font-size: 60px;
-}
-
-p{
-  font-size: xx-large;
-}
-
-button{
-  width: 200px;
-  height: 40px;
-  font-size: medium;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -1,16 +1,12 @@
 import React from 'react';
 import './App.css';
-import ClassState from './Components/Class/ClassState';
-import FunctionState from './Components/Function/FunctionState';
+import Input from './Components/Input/Input';
 
 function App() {
   return (
     <div className="App">
-      <h1>State</h1>
-      <ClassState />
-      <br/>
-      <hr/>
-      <FunctionState />
+      <h1>Props</h1>
+      <Input />
     </div>
   );
 }
